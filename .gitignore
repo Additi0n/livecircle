@@ -1,0 +1,36 @@
+# Local secrets and live data
+work/secrets/
+work/LiveCircle/server/data/
+*.pem
+*.key
+*_ed25519
+*_ed25519.pub
+
+# Android and APK build outputs
+outputs/
+work/LiveCircle/build-manual/
+work/LiveCircle/build-uploader-manual/
+work/LiveCircle/livecircle-debug.keystore
+*.apk
+*.apk.idsig
+*.idsig
+
+# Downloaded SDK/tooling caches
+work/tools/
+work/LiveCircle/deps/**/*.zip
+work/LiveCircle/deps/**/*.tmp
+work/LiveCircle/aliyun/*.zip
+
+# Local UI dumps and test snapshots
+work/*.xml
+work/LiveCircle/*.xml
+
+# Node runtime output
+node_modules/
+npm-debug.log*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

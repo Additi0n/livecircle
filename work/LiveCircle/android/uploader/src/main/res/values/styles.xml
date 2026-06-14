@@ -1,0 +1,8 @@
+<resources>
+    <style name="UploaderTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorAccent">#207567</item>
+    </style>
+    <style name="StartTheme" parent="@android:style/Theme.NoDisplay" />
+</resources>

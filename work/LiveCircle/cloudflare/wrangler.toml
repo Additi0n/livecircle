@@ -1,0 +1,11 @@
+name = "livecircle-relay"
+main = "src/worker.js"
+compatibility_date = "2026-06-01"
+
+[[durable_objects.bindings]]
+name = "GROUP_ROOM"
+class_name = "GroupRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GroupRoom"]
